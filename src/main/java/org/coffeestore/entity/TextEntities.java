@@ -1,4 +1,4 @@
-package org.CoffeeStore.Entity;
+package org.coffeestore.entity;
 
 
 import lombok.*;

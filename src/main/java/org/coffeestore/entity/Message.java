@@ -1,10 +1,10 @@
-package org.CoffeeStore.Entity;
+package org.coffeestore.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import jakarta.persistence.*;
 import lombok.*;
-import org.CoffeeStore.CastomDeserialize.MessageDeserializer;
+import org.coffeestore.castomDeserialize.MessageDeserializer;
 
 
 import java.time.LocalDateTime;

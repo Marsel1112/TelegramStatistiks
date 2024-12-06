@@ -1,14 +1,12 @@
-package org.CoffeeStore.CastomDeserialize;
+package org.coffeestore.castomDeserialize;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonNode;
-import org.CoffeeStore.Entity.Message;
-import org.CoffeeStore.Entity.TextEntities;
+import org.coffeestore.entity.Message;
 
 import java.io.IOException;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class MessageDeserializer extends JsonDeserializer<Message> {

@@ -1,4 +1,4 @@
-package org.CoffeeStore;
+package org.coffeestore;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -23,10 +23,10 @@ public class Config {
 
                 sessionFactory = new Configuration()
                         .setProperties(props)
-                        .addAnnotatedClass(org.CoffeeStore.Entity.BaseEntity.class)
-                        .addAnnotatedClass(org.CoffeeStore.Entity.Chats.class)
-                        .addAnnotatedClass(org.CoffeeStore.Entity.List.class)
-                        .addAnnotatedClass(org.CoffeeStore.Entity.Message.class)
+                        .addAnnotatedClass(org.coffeestore.entity.BaseEntity.class)
+                        .addAnnotatedClass(org.coffeestore.entity.Chats.class)
+                        .addAnnotatedClass(org.coffeestore.entity.List.class)
+                        .addAnnotatedClass(org.coffeestore.entity.Message.class)
                         .buildSessionFactory();
             } catch (Exception e) {
                 e.printStackTrace(); // Логирование исключения

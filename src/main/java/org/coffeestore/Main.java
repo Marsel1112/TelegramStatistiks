@@ -1,17 +1,15 @@
-package org.CoffeeStore;
+package org.coffeestore;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import org.CoffeeStore.Entity.BaseEntity;
-import org.CoffeeStore.Entity.Message;
+import org.coffeestore.entity.BaseEntity;
+import org.coffeestore.entity.Message;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 public class Main {
 
@@ -34,7 +32,7 @@ public class Main {
 
     public static void writer(BaseEntity baseEntity){
         for (int i = 0; i < baseEntity.getChats().getList().size(); i++) {
-            org.CoffeeStore.Entity.List list = baseEntity.getChats().getList().get(i);
+            org.coffeestore.entity.List list = baseEntity.getChats().getList().get(i);
 
             for (int j = 0; j < list.getMessages().size(); j++) {
                 Message message = list.getMessages().get(j);

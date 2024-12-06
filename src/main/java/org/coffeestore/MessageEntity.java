@@ -1,4 +1,4 @@
-package org.CoffeeStore;
+package org.coffeestore;
 
 
 import jakarta.persistence.Column;
@@ -6,9 +6,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.*;
-
-import java.time.LocalDate;
-import java.util.HashMap;
 
 @Builder
 @NoArgsConstructor

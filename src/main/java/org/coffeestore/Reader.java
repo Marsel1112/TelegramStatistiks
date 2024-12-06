@@ -1,15 +1,12 @@
-package org.CoffeeStore;
+package org.coffeestore;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
 
-import org.CoffeeStore.Entity.BaseEntity;
-import org.CoffeeStore.Entity.Chats;
+import org.coffeestore.entity.BaseEntity;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 
 @AllArgsConstructor
